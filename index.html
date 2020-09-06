@@ -9,10 +9,11 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
   <script defer src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
   <script src="https://kit.fontawesome.com/4784885076.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-
+  <!-- Navbar -->
   <div class="navbar-fixed">
     <nav>
       <div class="nav-wrapper">
@@ -20,29 +21,217 @@
         <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
         <ul class="left hide-on-med-and-down">
           <li><a href="index.html#about">About</a></li>
-          <li><a href="index.html#portfolio">Portfolio</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
           <li><a href="index.html#contact">Contact</a></li>
         </ul>
         <ul class="right hide-on-med-and-down">
-          <li><a href="https://github.com/acho9138" target="_blank"><i class="fab fa-github fa-3x"></i></a></li>
+          <li><a href="https://github.com/acho9138" target="_blank"><i class="fab fa-github fa-2x"></i></a></li>
           <li><a href="https://www.linkedin.com/in/anna-chong-199167191/" target="_blank"><i
-                class="fab fa-linkedin fa-3x"></i></a></li>
-          <li><a href="./assets/resume.pdf" target="_blank"><i class="fas fa-portrait fa-3x"></i></a></li>
+                class="fab fa-linkedin fa-2x"></i></a></li>
+          <li><a href="./assets/resume.pdf" target="_blank"><i class="fas fa-portrait fa-2x"></i></a></li>
         </ul>
       </div>
+      <!-- Sidenav when screen size is medium and small -->
       <ul class="sidenav" id="mobile-demo">
         <li><a href="index.html#about">About</a></li>
         <li><a href="index.html#portfolio">Portfolio</a></li>
         <li><a href="index.html#contact">Contact</a></li>
         <li>
-          <a href="https://github.com/acho9138" target="_blank"><i class="fab fa-github fa-3x"></i></a>
-          <a href="https://www.linkedin.com/in/anna-chong-199167191/" target="_blank"><i
+          <a href="https://github.com/acho9138" class="icon" target="_blank"><i class="fab fa-github fa-3x"></i></a>
+          <a href="https://www.linkedin.com/in/anna-chong-199167191/" class="icon" target="_blank"><i
               class="fab fa-linkedin fa-3x"></i></a>
-          <a href="./assets/resume.pdf" target="_blank"><i class="fas fa-portrait fa-3x"></i></a>
+          <a href="./assets/resume.pdf" target="_blank" class="icon"><i class="fas fa-portrait fa-3x"></i></a>
         </li>
       </ul>
     </nav>
   </div>
+
+  <div class="container">
+    <!-- About Me section -->
+    <div class="row" id="container">
+      <div id="about">
+        <img src="./assets/profile.jpeg" alt="" class="col s12 m6 l5">
+        <div class="col s12 m6 l7">
+          <h4>Full Stack Web Developer</h4>
+          <p>Former pharmacist, Anna excels with skills in communication, problem solving, time management and
+            perserverance.</p>
+          <p>
+            She is knowledgeable and has experience with HTML, CSS, JavaScript, CSS libraries (Bootstrap and
+            MaterializeCSS), jQuery, Node.js, Expressjs, MySQL and
+            MongoDB and strives to continue learning new languages and technologies.
+          </p>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Portfolio section -->
+    <div class="row" id="portfolio">
+      <div class="col s12">
+        <h3>Portfolio</h3>
+      </div>
+      <!-- Tiny steps card -->
+      <div class="col s12 m6">
+        <div class="card sticky-action">
+          <div class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="./assets/tinySteps.png">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">Tiny Steps<i
+                  class="material-icons right">expand_less</i></span>
+            </div>
+            <div class="card-action">
+              <a href="https://tinystepsau.herokuapp.com/">Link to site</a>
+              <a href="https://github.com/Nikki-Rees/Project_2" target="_blank"><i class="fab fa-github fa-2x"></i></a>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">Tiny Steps<i
+                  class="material-icons right">close</i></span>
+              <p>Where do you start to develop a healthy habit?</p>
+              <p>It can be difficult but this app will help you develop healthy habits and maintain your motivation by
+                tracking your progress.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Burger record card -->
+      <div class="col s12 m6">
+        <div class="card sticky-action">
+          <div class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="./assets/burger.png">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">Burger Record<i
+                  class="material-icons right">expand_less</i></span>
+            </div>
+            <div class="card-action">
+              <a href="https://shrouded-bayou-18775.herokuapp.com/">Link to site</a>
+              <a href="https://github.com/acho9138/Burger-Record" target="_blank"><i
+                  class="fab fa-github fa-2x"></i></a>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">Burger Record<i
+                  class="material-icons right">close</i></span>
+              <p>Losing track of all the burgers you want to eat?</p>
+              <p>Use this app to keep track of them all and check them off as you devour it.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Job seeker card -->
+      <div class="col s12 m6">
+        <div class="card sticky-action">
+          <div class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="./assets/jobSeeker.png">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">Job Seeker<i
+                  class="material-icons right">expand_less</i></span>
+            </div>
+            <div class="card-action">
+              <a href="https://guedesantonio.github.io/JOB-SEARCH-APP/">Link to site</a>
+              <a href="https://github.com/guedesantonio/JOB-SEARCH-APP" target="_blank"><i
+                  class="fab fa-github fa-2x"></i></a>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">Job Seeker<i
+                  class="material-icons right">close</i></span>
+              <p>Looking for a career change? You've come to the right place!</p>
+              <p>Search jobs which interest you and get book recommendations which can help boost your chances.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Weather app card -->
+      <div class="col s12 m6">
+        <div class="card sticky-action">
+          <div class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="./assets/weather.png">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">Weather App<i
+                  class="material-icons right">expand_less</i></span>
+            </div>
+            <div class="card-action">
+              <a href="https://acho9138.github.io/Weather-App/">Link to site</a>
+              <a href="https://github.com/acho9138/Weather-App" target="_blank"><i class="fab fa-github fa-2x"></i></a>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">Weather App<i
+                  class="material-icons right">close</i></span>
+              <p>Ever wonder what the weather is like in a particular city?</p>
+              <p>Search cities using this app and it'll show you the current weather conditions as well as the forcast
+                for the next 5 days.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Work day planner card -->
+    <div class="row">
+      <div class="col s12 m6">
+        <div class="card sticky-action">
+          <div class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="./assets/planner.png">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">Work Day Scheduler<i
+                  class="material-icons right">expand_less</i></span>
+            </div>
+            <div class="card-action">
+              <a href="https://acho9138.github.io/HW5-Work-Day-Planner/">Link to site</a>
+              <a href="https://github.com/acho9138/HW5-Work-Day-Planner" target="_blank"><i
+                  class="fab fa-github fa-2x"></i></a>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">Work Day Scheduler<i
+                  class="material-icons right">close</i></span>
+              <p>Need to keep track of your day?</p>
+              <p>This day planner allows you to plan each hour of the day and clearly indicates the past, current and
+                future hours.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Password generator card -->
+      <div class="col s12 m6">
+        <div class="card sticky-action">
+          <div class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="./assets/password.png">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">Password Generator<i
+                  class="material-icons right">expand_less</i></span>
+            </div>
+            <div class="card-action">
+              <a href="https://acho9138.github.io/HW3-Password-Generator/">Link to site</a>
+              <a href="https://github.com/acho9138/HW3-Password-Generator" target="_blank"><i
+                  class="fab fa-github fa-2x"></i></a>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">Password Generator<i
+                  class="material-icons right">close</i></span>
+              <p>Need a strong password?</p>
+              <p>This app generates one for you with all the requirements you are looking for.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
 
   <script src="https://code.jquery.com/jquery-3.5.1.min.js"
     integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
