@@ -2,12 +2,16 @@
 margin-top: 100px;
 }
 
-p {
+.about {
   font-size: 17px;
 }
 
+hr {
+  margin-top: 40px;
+}
+
 #portfolio {
-  margin-top: 120px;
+  padding-top: 64px;
 }
 
 .card-action {
@@ -16,6 +20,20 @@ p {
   justify-content: space-between;
 }
 
-h3 {
+.centeredTitle {
   text-align: center;
+}
+
+#contact {
+  margin-top: 100px;
+}
+
+.footer-copyright {
+  text-align: center;
+}
+
+.icons {
+  color: white;
+  text-align: center;
+  padding: 5px 10px;
 }
