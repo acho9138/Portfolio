@@ -1,0 +1,21 @@
+#container {
+margin-top: 100px;
+}
+
+p {
+  font-size: 17px;
+}
+
+#portfolio {
+  margin-top: 120px;
+}
+
+.card-action {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+h3 {
+  text-align: center;
+}
